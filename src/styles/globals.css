@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Custom theme configuration (optional) */
+@theme {
+  /* Add custom colors, fonts, etc. if needed */
+}
+
+/* Dark mode body styles */
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b, #0f172a);
+  @apply text-slate-100 antialiased min-h-screen;
+}
+
+#root {
+  @apply min-h-screen;
+}
